@@ -1,0 +1,6 @@
+public class Node {
+	public Node(Configuration value) {
+		Configuration val = value;
+		Node next = null;
+	}
+}

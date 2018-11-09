@@ -1,0 +1,6 @@
+public class Node {
+	public Node(int value) {
+		int val = value;
+		Node next = null;
+	}
+}

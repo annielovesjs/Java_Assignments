@@ -1,0 +1,17 @@
+
+public class Configuration {
+	protected String configuration;
+	protected int configScore;
+	public Configuration(String config, int score) {
+		configuration = config;
+		configScore  = score;
+	}
+	
+	public String getStringConfiguration() {
+		return configuration;
+	}
+	
+	public int getScore() {
+		return configScore;
+	}
+}

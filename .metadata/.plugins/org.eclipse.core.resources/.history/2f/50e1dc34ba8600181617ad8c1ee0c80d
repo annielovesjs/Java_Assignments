@@ -1,0 +1,31 @@
+public class Node {
+	int data;
+	Node next;
+	public Node(int data) {
+		this.data = data;
+	}
+	
+	public Node next() {
+		return this.next;
+	}
+	
+	public static int countNodes(Node head) {
+		int total=1;
+		Node data = head.next();
+		while(data.next != null) {
+			total += 1;
+			data = data.next;
+		}
+		return total;
+	}
+	public static void main(String[] args) {
+		Node head = new Node(69);
+		Node nodeA = new Node(88);
+		Node nodeB = new Node(1);
+		head.next = nodeA;
+		nodeA.next = nodeB;
+		
+		System.out.println(countNodes(head));
+	}
+
+}

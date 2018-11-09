@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="!=" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="true" key="wholeword"/>
+		<list key="findhistory">
+			<item value="!="/>
+			<item value="=="/>
+			<item value="&#x09;&#x09;if (test[7])"/>
+			<item value="hashDictionary"/>
+			<item value="clock"/>
+			<item value="time"/>
+			<item value="Clown"/>
+			<item value="T"/>
+			<item value="parade"/>
+			<item value="public class Cylinder "/>
+		</list>
+		<list key="replacehistory">
+			<item value="msClock"/>
+			<item value="ms"/>
+			<item value="T"/>
+			<item value="Clown"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="736" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
